@@ -106,38 +106,18 @@ Tela inicial com visão geral do sistema.
 * Imóveis reservados
 * Imóveis mais procurados
 
-### 5.3 Exportar Relatórios
-
-* PDF
-* Excel
-
 ---
 
-## 6. Gestão de Utilizadores (Opcional mas recomendado)
-
-* Criar administrador
-* Editar administrador
-* Remover administrador
-* Permissões
-
----
-
-## 7. Configurações do Sistema
-
-* Nome do sistema (Home Life)
-* Logo do sistema
+## 6. Configurações do Sistema
 * Configurações gerais
-* Segurança
-* Backup
 
 ---
 
-## 8. Perfil do Administrador
+## 7. Perfil do Administrador
 
 * Ver perfil
 * Editar dados
 * Alterar senha
-* Logout
 
 ---
 
@@ -156,21 +136,3 @@ Utilizadores
 Configurações
 Perfil
 Logout
-=======
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 0efb19c543b39605733221cdd902169ed703ac6b
