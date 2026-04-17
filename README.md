@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Para o **Administrador** do **Sistema de Reserva de Imóveis - Home Life**, estas são as **telas principais**:
 
 # Telas do Administrador
