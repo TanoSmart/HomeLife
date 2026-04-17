@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nome": "Manassés Tano",
+    "email": "manassesmadiata@email.com",
+    "telefone": "948679436",
+    "senha": "123456",
+    "tipo": "cliente"
+  },
+  {
+    "id": 1,
+    "nome": "Admin",
+    "email": "admin@email.com",
+    "senha": "123456",
+    "tipo": "cliente"
+  }
+]

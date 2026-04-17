@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 1,
+    "imovelId": 1,
+    "status": "pendente",
+    "data": "2026-04-17"
+  }
+]

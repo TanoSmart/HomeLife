@@ -1,0 +1,61 @@
+.sidebar {
+    background-color: #ffffff;
+    height: 100%;
+    width: var(--sidebar-width);
+    border-top-right-radius: 20px;
+    margin-right: 8px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar .logo-cliente-page {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar li {
+    list-style: none;
+}
+
+.sidebar button {
+    background-color: #ffffff;
+    color: #020202;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.15s,
+        box-shadow 0.15s;
+}
+
+.sidebar button:hover {
+    background-color: #ffffff3f;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-exit {
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, .15);
+    text-align: center;
+    color: #ff5555;
+}

@@ -1,0 +1,105 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+#imovel .page-content {
+  display: none;
+  animation: fadeIn var(--transition-base);
+}
+
+#imovel .page-content.active {
+  display: block;
+}
+
+#imovel .page-header {
+  margin-bottom: var(--spacing-2xl);
+}
+
+#imovel .page-header h1 {
+  margin-bottom: var(--spacing-sm);
+}
+
+#imovel .text-muted {
+  color: var(--gray-500);
+  font-size: var(--font-size-sm);
+}
+
+#imovel .stat-card {
+  width: 310px;
+  background: var(--white);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-md);
+  display: flex;
+  grid-auto-rows: 4fr;
+  align-items: center;
+  gap: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition-base);
+}
+
+#imovel .stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+html.dark-mode #imovel .stat-card {
+  background: var(--gray-100);
+  border-color: var(--gray-200);
+}
+
+#imovel .stat-icon {
+  width: 250px;
+  height: 150px;
+  border-radius: var(--border-radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+
+#imovel .stat-label {
+  color: var(--gray-500);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+#imovel .stat-value {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+#imovel .stat-change {
+  font-size: var(--font-size-sm);
+  display: inline-block;
+}
+
+#imovel .stat-change.positive {
+  color: var(--success-color);
+}
+
+#imovel .stat-change.negative {
+  color: var(--danger-color);
+}
+
+#imovel .stat-change.neutral {
+  color: var(--gray-500);
+}
+
+#imovel .stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+#imovel .button-comprar {
+  margin-top: 0;
+  box-shadow: 1px 1px 10px rgba(0, 255, 0, .35);
+  text-align: center;
+  color: #55ff55;
+}

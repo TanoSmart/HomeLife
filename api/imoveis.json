@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "foto": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+    "titulo": "Residencial Imperial",
+    "valor": 2000000,
+    "quartos": 4,
+    "localizacao": "Luanda",
+    "status": "disponivel",
+    "proprietario": null
+  },
+  {
+    "id": 2,
+    "foto": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+    "titulo": "Moradia T3",
+    "Valor": 250000,
+    "Localizacao": "Talatona",
+    "Status": "Disponível",
+    "Proprietario": "João Silva"
+  },
+  {
+    "id": 3,
+    "foto": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    "titulo": "Apartamento T2",
+    "Valor": 180000,
+    "Localizacao": "Kilamba",
+    "Status": "Reservado",
+    "Proprietario": "Maria Fernandes"
+  }
+]
